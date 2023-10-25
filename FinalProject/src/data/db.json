@@ -1,0 +1,161 @@
+{
+    "colorProduct": [
+      { "colorName": "White", "id": 1 },
+      { "colorName": "Gold", "id": 2 },
+      { "colorName": "Grey", "id": 3 },
+      { "colorName": "Orange", "id": 4 },
+      { "colorName": "Brown", "id": 5 },
+      { "colorName": "Rose", "id": 6 },
+      { "colorName": "Black", "id": 7 }
+    ],
+    "category": [
+      { "categoryName": "HOME DECOR", "id": 1 },
+      { "categoryName": "VASES", "id": 2 },
+      { "categoryName": "BASICS", "id": 3 },
+      { "categoryName": "LIGHTING", "id": 4 },
+      { "categoryName": "DECORATION", "id": 5 }
+    ],
+    "materialProduct": [
+      { "materailName": "Chrome", "id": 1 },
+      { "materailName": "Concrete", "id": 2 },
+      { "materailName": "Glass", "id": 3 },
+      { "materailName": "Metal", "id": 4 },
+      { "materailName": "Steel", "id": 5 },
+      { "materailName": "Wood", "id": 6 }
+    
+    ],
+    "products": [
+      {
+        "id": 1,
+        "productName": "VARIABLE PRODUCT",
+        "productImage": "./src/img/1.jpg",
+        "price": "160",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis. Maecenas ut tellus mi. Proin tincidunt, lectus eu volutpat mattis, ante metus lacinia tellus, vitae condimentum nulla enim bibendum nibh. Praesent turpis risus, interdum nec venenatis id, pretium sit amet purus. Interdum et malesuada fames.",
+        "categoryId": 1,
+        "categoryName": "HOME DECOR",
+        "materialProductId": 6,
+        "colorProductId": 1,
+        "isNewProduct": false
+      },
+      {
+        "id": 2,
+        "productName": "WALL CLOCK",
+        "productImage": "./src/img/2.jpg",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis. Maecenas ut tellus mi. Proin tincidunt, lectus eu volutpat mattis, ante metus lacinia tellus, vitae condimentum nulla enim bibendum nibh. Praesent turpis risus, interdum nec venenatis id, pretium sit amet purus. Interdum et malesuada fames.",
+        "price": "160",
+        "categoryId": 2,
+        "categoryName": "VASES",
+        "materialProductId": 5,
+        "colorProductId": 2,
+        "isNewProduct": false
+      },
+      {
+        "id": 3,
+        "productName": "ELEGANT PENDANT",
+        "productImage": "./src/img/3.jpg",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis. Maecenas ut tellus mi. Proin tincidunt, lectus eu volutpat mattis, ante metus lacinia tellus, vitae condimentum nulla enim bibendum nibh. Praesent turpis risus, interdum nec venenatis id, pretium sit amet purus. Interdum et malesuada fames.",
+        "price": "290",
+        "categoryId": 3,
+        "categoryName": "BASICS",
+        "materialProductId": 4,
+        "colorProductId": 4,
+        "isNewProduct": false
+      },
+      {
+        "id": 4,
+        "productName": "BLACK CLOCK",
+        "productImage": "./src/img/4.jpg",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis. Maecenas ut tellus mi. Proin tincidunt, lectus eu volutpat mattis, ante metus lacinia tellus, vitae condimentum nulla enim bibendum nibh. Praesent turpis risus, interdum nec venenatis id, pretium sit amet purus. Interdum et malesuada fames.",
+        "price": "290",
+        "categoryId": 4,
+        "categoryName": "LIGHTING",
+        "materialProductId": 3,
+        "colorProductId": 3,
+        "isNewProduct": false
+      },
+      {
+        "id": 5,
+        "productName": "CLASSIC CLOCK",
+        "productImage": "./src/img/5.jpg",
+        "price": "120",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis. Maecenas ut tellus mi. Proin tincidunt, lectus eu volutpat mattis, ante metus lacinia tellus, vitae condimentum nulla enim bibendum nibh. Praesent turpis risus, interdum nec venenatis id, pretium sit amet purus. Interdum et malesuada fames.",
+        "categoryId": 5,
+        "categoryName": "DECORATION",
+        "materialProductId": 2,
+        "colorProductId": 6,
+        "isNewProduct": false
+      },
+      {
+        "id": 6,
+        "productName": "GROUPED PRODUCT",
+        "productImage": "./src/img/6.jpg",
+        "price": "120",
+        "categoryId": 1,
+        "categoryName": "HOME DECOR",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis. Maecenas ut tellus mi. Proin tincidunt, lectus eu volutpat mattis, ante metus lacinia tellus, vitae condimentum nulla enim bibendum nibh. Praesent turpis risus, interdum nec venenatis id, pretium sit amet purus. Interdum et malesuada fames.",
+        "materialProductId": 5,
+        "colorProductId": 5,
+        "isNewProduct": true
+      },
+      {
+        "id": 7,
+        "productName": "GROUPED PRODUCT",
+        "productImage": "./src/img/7.jpg",
+        "price": "120",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis. Maecenas ut tellus mi. Proin tincidunt, lectus eu volutpat mattis, ante metus lacinia tellus, vitae condimentum nulla enim bibendum nibh. Praesent turpis risus, interdum nec venenatis id, pretium sit amet purus. Interdum et malesuada fames.",
+        "categoryId": 2,
+        "categoryName": "VASES",
+        "materialProductId": 6,
+        "colorProductId": 7,
+        "isNewProduct": false
+      },
+      {
+        "id": 8,
+        "productName": "GROUPED PRODUCT",
+        "productImage": "./src/img/8.jpg",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis. Maecenas ut tellus mi. Proin tincidunt, lectus eu volutpat mattis, ante metus lacinia tellus, vitae condimentum nulla enim bibendum nibh. Praesent turpis risus, interdum nec venenatis id, pretium sit amet purus. Interdum et malesuada fames.",
+        "price": "120",
+        "categoryId": 3,
+        "categoryName": "BASICS",
+        "materialProductId": 1,
+        "colorProductId": 8,
+        "isNewProduct": false
+      }
+      
+   
+    ],
+    "carousel": [
+      {
+        "id": 1,
+        "carouselImage": "./src/img/1.jpg",
+        "title": "Think Different",
+        "decoration": "Depot is a unique & captivating theme designed specifically for all types of shops"
+      },
+      {
+        "id": 2,
+        "carouselImage": "./src/img/2.jpg",
+        "title": "Think Different",
+        "decoration": "Depot is a unique & captivating theme designed specifically for all types of shops"
+      },
+      {
+        "id": 3,
+        "carouselImage": "./src/img/3.jpg",
+        "title": "Think Different",
+        "decoration": "Depot is a unique & captivating theme designed specifically for all types of shops"
+      }
+    ],
+
+    "image":[
+      {"id":1 , "image":"./src/img/121706350_341238710274276_2107885337301681786_n.jpg" , "imageUrl":"https://www.instagram.com/p/CGhJa8vFOQj/?_ga=2.146382775.2077761489.1697734549-1658029019.1697123498"},
+      {"id":2 , "image":"./src/img/122016608_806650313433880_1600521106296355963_n.jpg" , "imageUrl":"https://www.instagram.com/p/CGhJa8vFOQj/?_ga=2.146382775.2077761489.1697734549-1658029019.1697123498"},
+      {"id":3 , "image":"./src/img/121723529_3793969053955516_8810353083681158264_n.jpg" , "imageUrl":"https://www.instagram.com/p/CGhJYGLFu65/?_ga=2.83476245.2077761489.1697734549-1658029019.1697123498"},
+      {"id":4 , "image":"./src/img/121973628_200177911508014_2941590146547160742_n.jpg" , "imageUrl":"https://www.instagram.com/p/CGhJW_VF4jR/?_ga=2.83476245.2077761489.1697734549-1658029019.1697123498"},
+      {"id":5 , "image":"./src/img/122051697_411026813238434_1355949659294403733_n.jpg" , "imageUrl":"https://www.instagram.com/p/CGhJVkRlXwr/?_ga=2.149590197.2077761489.1697734549-1658029019.1697123498"},
+      {"id":6 , "image":"./src/img/121700270_225093348948361_5082705528782722824_n.jpg" , "imageUrl":"https://www.instagram.com/p/CGhJUMTlj1n/?_ga=2.145463095.2077761489.1697734549-1658029019.1697123498"},
+      {"id":7 , "image":"./src/img/122148512_2806300579659337_8890330674367352214_n.jpg" , "imageUrl":"https://www.instagram.com/p/CGhJGjeF8OU/"},
+      {"id":8 , "image":"./src/img/121665687_358112645401863_3510768153228424655_n.jpg" , "imageUrl":"121665687_358112645401863_3510768153228424655_n.jpg"}
+   
+    ]
+ 
+  }
+  
